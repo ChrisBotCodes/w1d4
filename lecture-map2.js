@@ -28,5 +28,5 @@ const countHobbies = function(user){
 }
 const mappedUsers = customMap(usersList1, countHobbies);
 
-console.log(usersList1.map(countHobbies));
 console.log(mappedUsers);
+console.log(usersList1.map(countHobbies));
