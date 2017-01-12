@@ -1,11 +1,11 @@
 // callback example
 // get all even numbers, and double them
 
-function myFilter(inputArray, cb) {
+function myFilter(inputArray, callback) {
   var output = [];
 
   inputArray.forEach(function(element) {
-    if (cb(element)) {
+    if (callback(element)) {
       output.push(element);
     }
   })
