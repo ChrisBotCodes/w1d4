@@ -4,7 +4,7 @@
 var countdownGenerator = function (x) {
   return function() {
     if (x > 0) {
-      console.log("T-minus " + x--);
+      console.log("T-minus " + x-- + "...");
     } else if (x === 0) {
       console.log("Blast Off!");
       x--;
